@@ -1,4 +1,3 @@
-
 // Given two positive integers n and k, the binary string Sn is formed as follows:
 
 // S1 = "0"
