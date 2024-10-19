@@ -1,11 +1,12 @@
 import java.util.*;
+
 public class Longest_word_with_all_Prefixes {
     static class Node {
-        Node[]children = new Node[26];
+        Node[] children = new Node[26];
         boolean eow;
 
         public Node() {
-            for(int i=0; i<26; i++) {
+            for (int i = 0; i < 26; i++) {
                 children[i] = null;
             }
         }
@@ -19,45 +20,47 @@ public class Longest_word_with_all_Prefixes {
         int idx = 0;
 
         Node curr = root;
-        for(; level<len; level++) {
+        for (; level < len; level++) {
             idx = word.charAt(level) - 'a';
-            if(curr.children[idx] == null) {
+            if (curr.children[idx] == null) {
                 curr.children[idx] = new Node();
             }
             curr = curr.children[idx];
 
         }
-        curr.eow = true; 
+        curr.eow = true;
     }
 
-    public static boolean search (String key) {
+    public static boolean search(String key) {
         int level = 0;
         int len = key.length();
         int idx = 0;
 
         Node curr = root;
-        for(; level<len; level++) {
+        for (; level < len; level++) {
             idx = key.charAt(level) - 'a';
-            if(curr.children[idx] == null) {
+            if (curr.children[idx] == null) {
                 return false;
             }
             curr = curr.children[idx];
 
         }
-        return curr.eow = true; 
+        return curr.eow = true;
 
     }
+
     public static String ans = "";
-    public static void LongestWord (Node root, StringBuilder temp){
-        if(root == null) {
+
+    public static void LongestWord(Node root, StringBuilder temp) {
+        if (root == null) {
             return;
         }
 
-        for(int i=0; i<26; i++) {
-            if(root.children[i] != null && root.children[i].eow == true) {
-                char ch = (char)(i+'a');
+        for (int i = 0; i < 26; i++) {
+            if (root.children[i] != null && root.children[i].eow == true) {
+                char ch = (char) (i + 'a');
                 temp.append(ch);
-                if(temp.length() > ans.length()) {
+                if (temp.length() > ans.length()) {
                     ans = temp.toString();
                 }
 
@@ -67,15 +70,14 @@ public class Longest_word_with_all_Prefixes {
         }
     }
 
-
     public static void main(String[] args) {
-        String words[] = {"a", "banana", "app", "appl", "ap", "apply", "apple"};
-        for(int i=0; i<words.length; i++) {
+        String words[] = { "a", "banana", "app", "appl", "ap", "apply", "apple" };
+        for (int i = 0; i < words.length; i++) {
             insert(words[i]);
         }
         LongestWord(root, new StringBuilder(""));
         System.out.println(ans);
-        
+
     }
-    
+
 }
