@@ -7,7 +7,6 @@
 
 // Note that the depth of a node is the number of edges in the path from the root node to it.
 
-
 import java.util.*;
 
 public class Cousins_in_BT {
@@ -107,23 +106,15 @@ public class Cousins_in_BT {
     }
 
     public static void main(String[] args) {
-        // Node root = new Node(1);
-        // root.left = new Node(2);
-        // root.right = new Node(3);
-        // root.left.left = new Node(4);
-        // root.left.right = new Node(5);
-        // root.right.left = new Node(6);
-        // root.right.right = new Node(7);
-        // output : 0 0 0 13 13 9 9
 
-        Node root = new Node(5);
-        root.left = new Node(4);
-        root.right = new Node(9);
-        root.left.left = new Node(1);
-        root.left.right = new Node(10);
-        root.right.left = new Node(0);
-        root.right.right = new Node(7);
-        // output : 0 0 0 7 7 11 11
+        Node root = new Node(5);           // Node root = new Node(1);
+        root.left = new Node(4);           // root.left = new Node(2);
+        root.right = new Node(9);          // root.right = new Node(3);
+        root.left.left = new Node(1);      // root.left.left = new Node(4);
+        root.left.right = new Node(10);    // root.left.right = new Node(5);
+        root.right.left = new Node(0);     // root.right.left = new Node(6);
+        root.right.right = new Node(7);    // root.right.right = new Node(7);
+        // output : 0 0 0 7 7 11 11             // output : 0 0 0 13 13 9 9
 
         replaceValueInTree(root);
         printTreeLevelOrder(root); // Print the tree in level-order to show the result
