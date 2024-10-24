@@ -1,5 +1,4 @@
 public class Flip_Equivalent_BT {
-    // Definition of Node class for the custom binary tree
     static class Node {
         int data;
         Node left, right;
