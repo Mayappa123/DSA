@@ -12,15 +12,16 @@ public class Sum_Of_Nodes {
 
     }
 
-    public static int Sum( Node root) {
-        if(root == null) {
+    public static int Sum(Node root) {
+        if (root == null) {
             return 0;
         }
         int leftsum = Sum(root.left);
         int rightsum = Sum(root.right);
         return leftsum + rightsum + root.data;
-        
+
     }
+
     public static void main(String[] args) {
         Node root = new Node(1);
         root.left = new Node(2);
@@ -31,7 +32,6 @@ public class Sum_Of_Nodes {
         root.right.right = new Node(7);
 
         System.out.println(Sum(root));
-
 
     }
 }
