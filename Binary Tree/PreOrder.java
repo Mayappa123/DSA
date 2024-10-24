@@ -28,7 +28,6 @@ public class PreOrder {
             newNode.right = BuildTree(nodes);
 
             return newNode;
-
         }
 
         public static void PreOrder(Node root) { // Root -> Left -> right
@@ -95,31 +94,34 @@ public class PreOrder {
             int rightnodes = CountOfNodes(root.right);
             return leftnodes + rightnodes + 1;
         }
+    }
 
-        public static void main(String[] args) {
-            int nodes[] = { 1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, -1 };
-            Node root = BuildTree(nodes);
+    public static void main(String[] args) {
+        int nodes[] = { 1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, -1 };
 
-            System.out.print("PreOrer Treversal --> ");
-            PreOrder(root);
-            System.out.println();
+        // Create the BinaryTree object to call its methods
+        BinaryTree tree = new BinaryTree();
+        Node root = tree.BuildTree(nodes);
 
-            System.out.print("InOrer Treversal --> ");
-            InOrder(root);
-            System.out.println();
+        System.out.print("PreOrder Traversal --> ");
+        tree.PreOrder(root);
+        System.out.println();
 
-            System.out.print("PostOrer Treversal --> ");
-            PostOrder(root);
-            System.out.println();
+        System.out.print("InOrder Traversal --> ");
+        tree.InOrder(root);
+        System.out.println();
 
-            System.out.print("Total number of nodes in tree --> ");
-            System.out.println(CountOfNodes(root));
-            System.out.println();
+        System.out.print("PostOrder Traversal --> ");
+        tree.PostOrder(root);
+        System.out.println();
 
-            System.out.println("Level Order Traversal --> ");
-            LevelOrder(root);
-            System.out.println();
-        }
+        System.out.print("Total number of nodes in tree --> ");
+        System.out.println(tree.CountOfNodes(root));
+        System.out.println();
 
+        System.out.println("Level Order Traversal --> ");
+        tree.LevelOrder(root);
+        System.out.println();
     }
 }
+                
