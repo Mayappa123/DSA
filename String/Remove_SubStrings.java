@@ -5,19 +5,21 @@ import java.util.*;
 
 public class Remove_SubStrings {
     public static List<String> removeSubStrings(String[] dictionary) {
-        List<String> ans = new ArrayList<>();
+        Arrays.sort(dictionary);
 
-        ans.add(dictionary[0]);
+        List<String> result = new ArrayList<>();
+
+        result.add(dictionary[0]);
 
         for (int i = 1; i < dictionary.length; i++) {
-            String s = ans.get(ans.size() - 1) + "/";
+            String lastAdded = result.get(result.size() - 1);
 
-            if (!dictionary[i].startsWith(s)) {
-                ans.add(dictionary[i]);
+            if (!dictionary[i].startsWith(lastAdded + "/")) {
+                result.add(dictionary[i]);
             }
         }
 
-        return ans;
+        return result;
     }
 
     public static void main(String[] args) {
