@@ -1,8 +1,4 @@
-
 import java.util.*;
-
-import javax.swing.tree.TreeNode;
-
 public class Height_of_BT_after_subTree_removal {
     static class Node {
         int data;
