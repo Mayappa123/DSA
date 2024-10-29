@@ -1,3 +1,10 @@
+// You are given a 0-indexed m x n matrix grid consisting of positive integers.
+
+// You can start at any cell in the first column of the matrix, and traverse the grid in the following way:
+
+// From a cell (row, col), you can move to any of the cells: (row - 1, col + 1), (row, col + 1) and (row + 1, col + 1) such that the value of the cell you move to, should be strictly bigger than the value of the current cell.
+// Return the maximum number of moves that you can perform.
+
 import java.util.*;
 
 public class Max_Moves_in_Grid {
@@ -37,7 +44,7 @@ public class Max_Moves_in_Grid {
     public static void main(String[] args) {
         int[][] grid = { { 2, 4, 3, 5 }, { 5, 4, 9, 3 }, { 3, 4, 2, 11 }, { 10, 9, 13, 15 } };
 
-        System.out.println("Maximum Moves : " + maxMoves(grid));
+        System.out.println("Maximum Moves : " + maxMoves(grid)); // 3
 
     }
 }
