@@ -14,7 +14,7 @@
 // Given a string sentence, return true if it is circular. Otherwise, return false.
 
 public class Circular_Sentence {
-    public static boolean isCircularSentence(String sentence) {
+    public static boolean isCircularSentence(String s) {
         String[] words = s.split(" ");
 
         for (int i = 0; i < words.length; i++) {
