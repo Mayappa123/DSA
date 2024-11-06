@@ -38,5 +38,7 @@ public class Can_Array_Be_sorted {
 
         int[] nums2 = { 3, 16, 8, 4, 2 };
         System.out.println(canSortArray(nums2)); // false
+
+        System.out.println(getSetBits(2));
     }
 }
