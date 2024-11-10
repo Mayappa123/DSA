@@ -52,5 +52,6 @@ public class Shortest_Subarray_With_OR_at_Least_K_II {
         int k2 = 10;
         System.out.println(minimumSubarrayLength(nums2, k2));// 3
 
+
     }
 }
