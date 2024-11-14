@@ -32,7 +32,7 @@ public class Single_Row_KeyBoard {
         String keyboard = "abcdefghijklmnopqrstuvwxy", text = "cba";
         int time = calculateTime(keyboard, text);
 
-        System.out.println(time);
+        System.out.println(time); //3
 
     }
 }
