@@ -47,7 +47,6 @@ public class Maximum_Sum_Of_SubArrays_With_K_Elemets {
         int k = 3;
 
         System.out.println(maximumSubarraySum(nums, k)); // 15
-
     }
 }
 
