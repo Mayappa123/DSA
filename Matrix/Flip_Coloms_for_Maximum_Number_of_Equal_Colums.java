@@ -1,5 +1,6 @@
-import java.util.HashMap;
-import java.util.Map;
+//1072. Flip Columns For Maximum Number of Equal Rows
+
+import java.util.*;
 
 public class Flip_Coloms_for_Maximum_Number_of_Equal_Colums {
 
