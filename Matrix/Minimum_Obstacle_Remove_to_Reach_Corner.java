@@ -11,7 +11,9 @@
 import java.util.*;
 
 class Minimum_Obstacle_Remove_to_Reach_Corner {
+
     public static int minimumObstacles(int[][] grid) {
+        
         int m = grid.length, n = grid[0].length;
         int[][] dist = new int[m][n]; // Minimum cost to reach each cell
 
