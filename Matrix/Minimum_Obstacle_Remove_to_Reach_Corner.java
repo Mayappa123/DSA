@@ -9,6 +9,7 @@
 // Return the minimum number of obstacles to remove so you can move from the upper left corner (0, 0) to the lower right corner (m - 1, n - 1).
 
 import java.util.*;
+
 class Minimum_Obstacle_Remove_to_Reach_Corner {
     public static int minimumObstacles(int[][] grid) {
         int m = grid.length, n = grid[0].length;
@@ -58,8 +59,16 @@ class Minimum_Obstacle_Remove_to_Reach_Corner {
     }
 
     public static void main(String[] args) {
-        int[][] grid = { { 0, 1, 1 }, { 1, 1, 0 }, { 1, 1, 0 } }; //2
+        int[][] grid = { { 0, 1, 1 }, { 1, 1, 0 }, { 1, 1, 0 } }; // 2
 
         System.out.println(minimumObstacles(grid));
     }
 }
+
+// Input: grid = [[0,1,1],[1,1,0],[1,1,0]]
+// Output: 2
+
+// Explanation: We can remove the obstacles at (0, 1) and (0, 2) to create a
+// path from (0, 0) to (2, 2).
+// It can be shown that we need to remove at least 2 obstacles, so we return 2.
+// Note that there may be other ways to remove 2 obstacles to create a path.
