@@ -54,7 +54,11 @@ public class Valid_Arrangement_of_Pairs {
 
     public static void main(String[] args) {
         int[][] pairs = { { 2, 4 }, { 3, 7 }, { 4, 3 }, { 7, 2 } };
-        System.out.println(validArrangement(pairs));
+        int[][] result = validArrangement(pairs);
 
+        // Print the result
+        for (int[] pair : result) {
+            System.out.println(Arrays.toString(pair));
+        }
     }
 }
