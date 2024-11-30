@@ -1,9 +1,6 @@
 //2097. Valid Arrangement of Pairs
 
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.Map;
-import java.util.Stack;
+import java.util.*;
 
 public class Valid_Arrangement_of_Pairs {
 
