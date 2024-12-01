@@ -69,7 +69,7 @@ public class Minimum_Time_to_Visit_a_cell_in_Grid {
 
         int[][] grid = { { 0, 1, 3, 2 }, { 5, 1, 2, 5 }, { 4, 3, 8, 6 } };
 
-        System.out.println(minimumTime(grid));  //7
+        System.out.println(minimumTime(grid)); // 7
 
         // Explanation: One of the paths that we can take is the following:
         // - at t = 0, we are on the cell (0,0).
