@@ -14,6 +14,6 @@ public class Check_if_N_and_its_Double_exists {
 
     public static void main(String[] args) {
         int[] nums = { 3, 7, 12, 5, 6, 1 };
-        System.out.println(checkIfExist(nums));  
+        System.out.println(checkIfExist(nums));  //true
     }
 }
