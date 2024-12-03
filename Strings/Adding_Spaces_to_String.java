@@ -1,6 +1,6 @@
 public class Adding_Spaces_to_String {
 
-    public String addSpaces(String s, int[] spaces) {
+    public static String addSpaces(String s, int[] spaces) {
         StringBuilder sb = new StringBuilder();
 
         sb.append(s.substring(0, spaces[0]));
@@ -15,6 +15,10 @@ public class Adding_Spaces_to_String {
         return sb.toString();
     }
     public static void main(String[] args) {
+
+        String s = "LeetcodeHelpsMeLearn";
+        int[] spaces = {8,13,15};
+        System.out.println(addSpaces(s, spaces));  // Leetcode Helps Me Learn
 
     }
 }
