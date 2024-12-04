@@ -14,6 +14,6 @@ public class Can_Make_Subsequence {
     public static void main(String[] args) {
         String str1 = "abc", str2 = "ad";
 
-        System.out.println(canMakeSubsequence(str1, str2));
+        System.out.println(canMakeSubsequence(str1, str2));  //true
     }
 }
