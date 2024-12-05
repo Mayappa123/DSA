@@ -1,4 +1,4 @@
-
+//2337. Move Pieces to Obtain a String
 
 public class Move_Pieces_to_Obtain_a_String {
     public static boolean canChange(String start, String target) {
@@ -45,6 +45,6 @@ public class Move_Pieces_to_Obtain_a_String {
         String start = "_L__R__R_";
         String target = "L______RR";
 
-        System.out.println(canChange(start, target));  //true
+        System.out.println(canChange(start, target)); // true
     }
 }
