@@ -1,6 +1,6 @@
 //2554. Maximum Number of Integers to Choose From a Range I
 
-import java.util.HashSet;
+import java.util.*;
 
 public class Maximum_Number_of_Integers_in_Range {
 
