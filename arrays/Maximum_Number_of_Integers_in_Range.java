@@ -26,7 +26,7 @@ public class Maximum_Number_of_Integers_in_Range {
         int[] banned = { 1, 3, 5 };
         int n = 5;
         int maxSum = 6;
-        System.out.println(maxCount(banned, n, maxSum));
+        System.out.println(maxCount(banned, n, maxSum));  //2
 
     }
 }
