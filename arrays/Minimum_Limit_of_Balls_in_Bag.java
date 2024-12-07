@@ -1,3 +1,6 @@
+//1760. Minimum Limit of Balls in a Bag
+
+
 public class Minimum_Limit_of_Balls_in_Bag {
 
     public static int minimumSize(int[] nums, int maxOperations) {
@@ -34,7 +37,9 @@ public class Minimum_Limit_of_Balls_in_Bag {
         return operations <= maxOperations;
     }
     public static void main(String[] args) {
-        int[]nums = {9};
+        int[] nums = {9};
         int maxOperations = 2;
+
+        System.out.println(minimumSize(nums, maxOperations));
     }
 }
