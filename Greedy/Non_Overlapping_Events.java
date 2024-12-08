@@ -26,7 +26,7 @@ public class Non_Overlapping_Events {
     }
 
     public static void main(String[] args) {
-        int[][] events = { { 1, 3, 2 }, { 4, 5, 2 }, { 2, 4, 3 } };
+        int[][] events = { { 1, 3, 2 }, { 4, 5, 2 }, { 2, 4, 3 } }; //4
         System.out.println(maxTwoEvents(events));
     }
 }
