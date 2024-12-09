@@ -20,7 +20,7 @@ public class Special_Array {
             int right = queries[i][1];
 
             // Calculate the number of special pairs in the range
-            int specialCount = prefix[right] - (left > 0 ? prefix[left] : 0);
+            int specialCount = prefix[right] - (left > 0 ? prefix[left - 1] : 0);
 
             // If no special pairs, the result is true; otherwise, false
             result[i] = (specialCount == 0);
@@ -28,7 +28,15 @@ public class Special_Array {
 
         return result;
     }
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
+        int[] nums = { 3, 4, 1, 2, 6 };
+        int[][] queries = { { 0, 4 } };
+
+        boolean[] arr = isArraySpecial(nums, queries);
+
+        for (boolean i : arr) {
+            System.out.println(i);
+        }
     }
- }
+}
