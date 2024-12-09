@@ -1,3 +1,5 @@
+
+
 public class Special_Array {
 
     public static boolean[] isArraySpecial(int[] nums, int[][] queries) {
