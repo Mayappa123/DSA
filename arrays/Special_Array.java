@@ -43,7 +43,10 @@ public class Special_Array {
         boolean[] arr = isArraySpecial(nums, queries);
 
         for (boolean i : arr) {
-            System.out.println(i);  //false
+            System.out.println(i); // false
+            
+            // The subarray is [3,4,1,2,6]. 2 and 6 are both even.
+
         }
     }
 }
