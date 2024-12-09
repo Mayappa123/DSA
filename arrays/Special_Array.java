@@ -36,7 +36,7 @@ public class Special_Array {
         boolean[] arr = isArraySpecial(nums, queries);
 
         for (boolean i : arr) {
-            System.out.println(i);
+            System.out.println(i);  //false
         }
     }
 }
