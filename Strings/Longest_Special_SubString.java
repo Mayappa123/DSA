@@ -38,6 +38,6 @@ public class Longest_Special_SubString {
     public static void main(String[] args) {
         String s = "aabccdeeee";
 
-        System.out.println(maximumLength(s));
+        System.out.println(maximumLength(s)); //2
     }
 }
