@@ -38,8 +38,13 @@ public class Longest_Special_SubString {
     }
 
     public static void main(String[] args) {
-        String s = "aabccdeeee";
+        String s = "aaaa";
 
         System.out.println(maximumLength(s)); // 2
+
+        //Input: s = "aaaa";
+        // Output: 2
+        // Explanation: The longest special substring which occurs thrice is "aa": substrings "aaaa", "aaaa", and "aaaa".
+        // It can be shown that the maximum length achievable is 2.
     }
 }
