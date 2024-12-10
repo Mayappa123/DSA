@@ -1,7 +1,6 @@
 //2981. Find Longest Special Substring That Occurs Thrice I
 
 import java.util.HashMap;
-
 public class Longest_Special_SubString {
 
     public static int maximumLength(String s) {
