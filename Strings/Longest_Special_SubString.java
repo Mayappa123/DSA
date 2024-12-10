@@ -1,19 +1,20 @@
 //2981. Find Longest Special Substring That Occurs Thrice I
 
 import java.util.HashMap;
+
 public class Longest_Special_SubString {
 
     public static int maximumLength(String s) {
         // Map to store frequency of each special substring
         HashMap<String, Integer> substringCount = new HashMap<>();
-        
+
         int n = s.length();
-        
+
         // Generate all special substrings
         for (int i = 0; i < n; i++) {
             char currentChar = s.charAt(i);
             StringBuilder specialSubstring = new StringBuilder();
-            
+
             for (int j = i; j < n; j++) {
                 // Check if the current character matches
                 if (s.charAt(j) == currentChar) {
@@ -25,7 +26,7 @@ public class Longest_Special_SubString {
                 }
             }
         }
-        
+
         // Find the longest special substring that occurs at least three times
         int maxLength = -1;
         for (String key : substringCount.keySet()) {
@@ -33,12 +34,13 @@ public class Longest_Special_SubString {
                 maxLength = Math.max(maxLength, key.length());
             }
         }
-        
+
         return maxLength;
     }
+
     public static void main(String[] args) {
         String s = "aabccdeeee";
 
-        System.out.println(maximumLength(s)); //2
+        System.out.println(maximumLength(s)); // 2
     }
 }
