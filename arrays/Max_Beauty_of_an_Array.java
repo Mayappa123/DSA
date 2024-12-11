@@ -10,6 +10,7 @@
 // A subsequence of an array is a new array generated from the original array by deleting some elements(possibly none)without changing the order of the remaining elements.
 
 import java.util.Arrays;
+
 public class Max_Beauty_of_an_Array {
     public static int maximumBeauty(int[] nums, int k) {
         Arrays.sort(nums);
@@ -27,6 +28,6 @@ public class Max_Beauty_of_an_Array {
         int[] nums = { 4, 6, 1, 2 };
         int k = 2;
 
-        System.out.println(maximumBeauty(nums, k));  //3
+        System.out.println(maximumBeauty(nums, k)); // 3
     }
 }
