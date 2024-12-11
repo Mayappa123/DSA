@@ -17,6 +17,6 @@ public class Max_Beauty_of_an_Array {
         int[] nums = { 4, 6, 1, 2 };
         int k = 2;
 
-        System.out.println(maximumBeauty(nums, k));
+        System.out.println(maximumBeauty(nums, k));  //3
     }
 }
