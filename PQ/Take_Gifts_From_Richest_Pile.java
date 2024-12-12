@@ -1,3 +1,5 @@
+
+
 import java.util.*;
 
 public class Take_Gifts_From_Richest_Pile {
