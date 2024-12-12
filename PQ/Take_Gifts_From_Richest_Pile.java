@@ -1,5 +1,4 @@
-import java.util.Collections;
-import java.util.PriorityQueue;
+import java.util.*;
 
 public class Take_Gifts_From_Richest_Pile {
 
