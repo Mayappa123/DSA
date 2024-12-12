@@ -24,6 +24,6 @@ public class Take_Gifts_From_Richest_Pile {
         int[] gifts = { 25, 64, 9, 4, 100 };
         int k = 4;
 
-        System.out.println(pickGifts(gifts, k));
+        System.out.println(pickGifts(gifts, k));  //29
     }
 }
