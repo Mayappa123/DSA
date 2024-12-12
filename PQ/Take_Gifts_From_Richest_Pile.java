@@ -34,5 +34,14 @@ public class Take_Gifts_From_Richest_Pile {
         int k = 4;
 
         System.out.println(pickGifts(gifts, k)); // 29
+
+        // Explanation:
+        // The gifts are taken in the following way:
+        // - In the first second, the last pile is chosen and 10 gifts are left behind.
+        // - Then the second pile is chosen and 8 gifts are left behind.
+        // - After that the first pile is chosen and 5 gifts are left behind.
+        // - Finally, the last pile is chosen again and 3 gifts are left behind.
+        // The final remaining gifts are [5,8,9,4,3], so the total number of gifts
+        // remaining is 29.
     }
 }
