@@ -47,5 +47,11 @@ public class Score_of_Array_after_Marking_All_Elements {
        int[] nums = {2,1,3,4,5,2};
 
        System.out.println(findScore(nums));  //7
+
+        // Explanation: We mark the elements as follows:
+        //     1 is the smallest unmarked element, so we mark it and its two adjacent elements: [2,1,3,4,5,2].
+        //     2 is the smallest unmarked element, so we mark it and its left adjacent element: [2,1,3,4,5,2].
+        //     4 is the only remaining unmarked element, so we mark it: [2,1,3,4,5,2].
+        //     Our score is 1 + 2 + 4 = 7.
     }
 }
