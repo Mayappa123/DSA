@@ -1,3 +1,6 @@
+//2593. Find Score of an Array After Marking All Elements
+
+
 
 import java.util.*;
 public class Score_of_Array_after_Marking_All_Elements {
