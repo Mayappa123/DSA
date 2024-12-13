@@ -9,6 +9,7 @@
 // Return the score you get after applying the above algorithm.
 
 import java.util.*;
+
 public class Score_of_Array_after_Marking_All_Elements {
 
     public static long findScore(int[] nums) {
@@ -44,7 +45,7 @@ public class Score_of_Array_after_Marking_All_Elements {
     }
 
     public static void main (String[] args) {
-        
+
        int[] nums = {2,1,3,4,5,2};
        System.out.println(findScore(nums));  //7
 
