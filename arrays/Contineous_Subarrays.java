@@ -42,8 +42,8 @@ public class Contineous_Subarrays {
     }
 
     public static void main(String[] args) {
-        
+
         int[] nums = { 5, 4, 2, 4 };
-        System.out.println(continuousSubarrays(nums));
+        System.out.println(continuousSubarrays(nums));  //8
     }
 }
