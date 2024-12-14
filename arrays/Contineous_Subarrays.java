@@ -13,7 +13,7 @@ import java.util.Map;
 
 public class Contineous_Subarrays {
 
-    public long continuousSubarrays(int[] nums) {
+    public static long continuousSubarrays(int[] nums) {
         int n = nums.length;
         int j = 0;
         long count = 0;
@@ -35,13 +35,13 @@ public class Contineous_Subarrays {
         return count;
     }
 
-    private int getCount(int num, Map<Integer, Integer> map) {
+    private static int getCount(int num, Map<Integer, Integer> map) {
         return map.getOrDefault(num, 0) + map.getOrDefault(num - 1, 0) +
                 map.getOrDefault(num + 1, 0) + map.getOrDefault(num - 2, 0) +
                 map.getOrDefault(num + 2, 0);
     }
 
     public static void main(String[] args) {
-        
+        int[] nums = {5,4,2,4};
     }
 }
