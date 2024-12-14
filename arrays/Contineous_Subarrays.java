@@ -1,3 +1,4 @@
+//2762. Continuous Subarrays
 
 // You are given a 0-indexed integer array nums. A subarray of nums is called continuous if:
 
@@ -6,6 +7,9 @@
 // Return the total number of continuous subarrays.
 
 // A subarray is a contiguous non-empty sequence of elements within an array.
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class Contineous_Subarrays {
 
