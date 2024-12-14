@@ -3,7 +3,7 @@ public class Contineous_Subarrays {
     public long continuousSubarrays(int[] nums) {
         int n = nums.length;
         int j = 0;
-        long cnt = 0;
+        long count = 0;
 
         Map<Integer, Integer> map = new HashMap<>();
 
@@ -16,10 +16,10 @@ public class Contineous_Subarrays {
                 j++;
             }
 
-            cnt += (i - j + 1);
+            count += (i - j + 1);
         }
 
-        return cnt;
+        return count;
     }
 
     private int getCount(int num, Map<Integer, Integer> map) {
