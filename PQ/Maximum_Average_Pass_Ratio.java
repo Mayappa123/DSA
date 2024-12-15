@@ -1,5 +1,6 @@
-import java.util.PriorityQueue;
+//1792. Maximum Average Pass Ratio
 
+import java.util.PriorityQueue;
 public class Maximum_Average_Pass_Ratio {
 
     public static double maxAverageRatio(int[][] classes, int extraStudents) {
