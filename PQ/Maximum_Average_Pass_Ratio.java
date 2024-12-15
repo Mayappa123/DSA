@@ -13,7 +13,7 @@
 // Return the maximum possible average pass ratio after assigning the extraStudents students. 
 //Answers within 10-5 of the actual answer will be accepted.
 
-import java.util.PriorityQueue;
+import java.util.*;
 
 public class Maximum_Average_Pass_Ratio {
 
