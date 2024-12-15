@@ -70,5 +70,8 @@ public class Maximum_Average_Pass_Ratio {
         int extraStudents = 2;
 
         System.out.println(maxAverageRatio(classes, extraStudents)); // 0.7833333333333333
+        // Explanation:
+        // You can assign the two extra students to the first class.
+        // The average pass ratio will be equal to (3/4 + 3/5 + 2/2) / 3 = 0.78333.
     }
 }
