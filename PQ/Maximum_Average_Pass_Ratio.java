@@ -54,6 +54,6 @@ public static double maxAverageRatio(int[][] classes, int extraStudents) {
         int[][] classes = {{1,2},{3,5},{2,2}};
         int extraStudents = 2;
 
-        System.out.println(maxAverageRatio(classes, extraStudents));
+        System.out.println(maxAverageRatio(classes, extraStudents)); // 0.7833333333333333
     }
 }
