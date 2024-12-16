@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Final_Array_State_after_K_Multiplication_Operation {
 
     public static int[] getFinalState(int[] nums, int k, int multiplier) {
@@ -19,6 +21,6 @@ public class Final_Array_State_after_K_Multiplication_Operation {
         int k = 5;
         int multiplier = 2;
 
-        System.out.println(Arrays.toString(getFinalState(nums, k, multiplier)));
+        System.out.println(Arrays.toString(getFinalState(nums, k, multiplier))); // [8,4,6,5,6]
     }
 }
