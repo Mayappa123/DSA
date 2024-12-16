@@ -1,3 +1,5 @@
+//3264. Final Array State After K Multiplication Operations I
+
 import java.util.*;
 
 public class Final_Array_State_after_K_Multiplication_Operation {
