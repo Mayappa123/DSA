@@ -6,6 +6,7 @@
 //If there are multiple occurrences of the minimum value, select the one that appears first.
 // Replace the selected minimum value x with x * multiplier.
 // Return an integer array denoting the final state of nums after performing all k operations.
+
 import java.util.*;
 
 public class Final_Array_State_after_K_Multiplication_Operation {
