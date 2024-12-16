@@ -7,6 +7,7 @@
 // Replace the selected minimum value x with x * multiplier.
 // Return an integer array denoting the final state of nums after performing all k operations.
 
+import java.rmi.server.Operation;
 import java.util.*;
 
 public class Final_Array_State_after_K_Multiplication_Operation {
@@ -32,5 +33,11 @@ public class Final_Array_State_after_K_Multiplication_Operation {
 
         System.out.println(Arrays.toString(getFinalState(nums, k, multiplier))); // [8,4,6,5,6]
 
+        // Operation Result
+        // After operation 1 [2, 2, 3, 5, 6]
+        // After operation 2 [4, 2, 3, 5, 6]
+        // After operation 3 [4, 4, 3, 5, 6]
+        // After operation 4 [4, 4, 6, 5, 6]
+        // After operation 5 [8, 4, 6, 5, 6]
     }
 }
