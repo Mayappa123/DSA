@@ -1,6 +1,6 @@
 public class Final_Array_State_after_K_Multiplication_Operation {
 
-    public int[] getFinalState(int[] nums, int k, int multiplier) {
+    public static int[] getFinalState(int[] nums, int k, int multiplier) {
         for (int i = 0; i < k; i++) {
             int min = 0;
 
