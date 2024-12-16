@@ -18,5 +18,7 @@ public class Final_Array_State_after_K_Multiplication_Operation {
         int[] nums = { 2, 1, 3, 5, 6 };
         int k = 5;
         int multiplier = 2;
+
+        System.out.println(Arrays.toString(getFinalState(nums, k, multiplier)));
     }
 }
