@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Final_Prices_with_Special_Discount_in_Shop {
 
     public static int[] finalPrices(int[] prices) {
