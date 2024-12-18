@@ -24,13 +24,13 @@ public class Final_Prices_with_Special_Discount_in_Shop {
                 }
             }
         }
-        
+
         return res;
     }
 
     public static void main(String[] args) {
-        int[] prices = { 8, 4, 6, 2, 3 };
 
+        int[] prices = { 8, 4, 6, 2, 3 };
         System.out.println(Arrays.toString(finalPrices(prices))); /// [4, 2, 4, 2, 3]
 
         // Input: prices = [8,4,6,2,3]
