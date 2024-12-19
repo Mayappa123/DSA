@@ -1,5 +1,5 @@
 public class Max_Chunks_to_Make_Sorted {
-    public int maxChunksToSorted(int[] arr) {
+    public static int maxChunksToSorted(int[] arr) {
         if (arr == null || arr.length == 0)
             return 0;
 
@@ -13,6 +13,7 @@ public class Max_Chunks_to_Make_Sorted {
         return count;
     }
     public static void main(String[] args) {
-        
+        int[] arr = {4,3,2,1,0};
+        System.out.println(maxChunksToSorted(arr));
     }
 }
