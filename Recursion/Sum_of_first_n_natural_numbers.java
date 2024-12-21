@@ -12,6 +12,6 @@ public class Sum_of_first_n_natural_numbers {
     }
 
     public static void main(String[] args) {
-        Printsum(1, 10, 0);
+        Printsum(1, 10, 0); //55
     }
 }
