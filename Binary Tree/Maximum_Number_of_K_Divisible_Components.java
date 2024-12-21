@@ -55,5 +55,7 @@ public class Maximum_Number_of_K_Divisible_Components {
         int[][] edges = { { 0, 2 }, { 1, 2 }, { 1, 3 }, { 2, 4 } };
         int[] values = { 1, 8, 1, 4, 4 };
         int k = 6;
+
+        System.out.println(maxKDivisibleComponents(n, edges, values, k));
     }
 }
