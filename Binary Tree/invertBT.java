@@ -47,10 +47,10 @@ public class invertBT {
         inOrderTraversal(root);
         System.out.println();
 
-        invertTree(root); 
+        invertTree(root);
 
         System.out.println("Inverted Tree (In-order Traversal):");
-        inOrderTraversal(root); 
+        inOrderTraversal(root);
         System.out.println();
     }
 }
