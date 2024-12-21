@@ -1,9 +1,8 @@
-import java.util.ArrayList;
-import java.util.LinkedList;
+import java.util.*;
 
 public class Maximum_Number_of_K_Divisible_Components {
 
-    public int maxKDivisibleComponents(int n, int[][] edges, int[] vals, int k) {
+    public static int maxKDivisibleComponents(int n, int[][] edges, int[] vals, int k) {
         if (n < 2)
             return 1;
 
