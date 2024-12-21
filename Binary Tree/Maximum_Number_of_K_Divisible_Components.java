@@ -1,3 +1,5 @@
+//2872. Maximum Number of K-Divisible Components
+
 import java.util.*;
 
 public class Maximum_Number_of_K_Divisible_Components {
