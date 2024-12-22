@@ -46,7 +46,7 @@ public class map {
     }
 
     public static void main(String[] args) {
-        iint[] height = { 6, 4, 8, 5, 2, 7 };
+        int[] height = { 6, 4, 8, 5, 2, 7 };
         int[][] queries = { { 0, 1 }, { 0, 3 }, { 2, 4 }, { 3, 4 }, { 2, 2 } };
         System.out.println(Arrays.toString(leftmostBuildingQueries(height, queries)));
     }
