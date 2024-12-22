@@ -60,5 +60,6 @@ public class map {
 // In the fifth query, Alice and Bob are already in the same building.  
 // For ans[i] != -1, It can be shown that ans[i] is the leftmost building where Alice and Bob can meet.
 // For ans[i] == -1, It can be shown that there is no building where Alice and Bob can meet.
+
     }
 }
