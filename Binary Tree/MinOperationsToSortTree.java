@@ -105,7 +105,6 @@ public class MinOperationsToSortTree {
         // - Swap 8 and 7. The 3rd level becomes [5,6,7,8].
         // We used 3 operations so return 3.
         // It can be proven that 3 is the minimum number of operations needed.
-
-        
+ 
     }
 }
