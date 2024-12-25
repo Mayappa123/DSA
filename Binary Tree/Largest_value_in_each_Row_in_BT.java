@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-
-import javax.swing.tree.Node;
+import java.util.*;
 
 public class Largest_value_in_each_Row_in_BT {
 
@@ -15,7 +13,7 @@ public class Largest_value_in_each_Row_in_BT {
         }
     }
 
-    private List<Integer> res;
+    private static List<Integer> res;
 
     public static List<Integer> largestValues(Node root) {
         res = new ArrayList<>();
@@ -48,8 +46,6 @@ public class Largest_value_in_each_Row_in_BT {
         root.right.left = new Node(6);
         root.right.right = new Node(7);
 
-        System.out.println(Arrays.toString(largestValues(root)));
-
+        System.out.println(largestValues(root));
     }
-
 }
