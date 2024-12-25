@@ -124,4 +124,3 @@ public class PreOrder {
         System.out.println();
     }
 }
-                
