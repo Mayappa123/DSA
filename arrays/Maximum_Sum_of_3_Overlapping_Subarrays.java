@@ -5,7 +5,7 @@
 //If there are multiple answers, return the lexicographically smallest one.
 
 public class Maximum_Sum_of_3_Overlapping_Subarrays {
-    public int[] maxSumOfThreeSubarrays(int[] nums, int k) {
+    public static int[] maxSumOfThreeSubarrays(int[] nums, int k) {
         if (nums == null || nums.length < k * 3)
             return new int[] {};
 
@@ -46,5 +46,19 @@ public class Maximum_Sum_of_3_Overlapping_Subarrays {
             }
         }
         return maxThree;
+    }
+
+    public static void main(String[] args) {
+        int[] nums = { 1, 2, 1, 2, 6, 7, 5, 1 };
+        int k = 2;
+
+        System.out.println(mmaxSumOfThreeSubarrays(nums, k));
+
+        // Input: nums = [1,2,1,2,6,7,5,1], k = 2
+        // Output: [0,3,5]
+        // Explanation: Subarrays [1, 2], [2, 6], [7, 5] correspond to the starting
+        // indices [0, 3, 5].
+        // We could have also taken [2, 1], but an answer of [1, 3, 5] would be
+        // lexicographically larger.
     }
 }
