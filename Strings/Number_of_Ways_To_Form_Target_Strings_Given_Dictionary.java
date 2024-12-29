@@ -36,6 +36,9 @@ public class Number_of_Ways_To_Form_Target_Strings_Given_Dictionary {
     }
 
     public static void main(String[] args) {
+        String words = { "acca", "bbbb", "caca" };
+        String target = "aba";
 
+        System.out.println(numWays(String[] words, target));
     }
 }
