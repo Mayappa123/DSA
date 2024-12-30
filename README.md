@@ -11,7 +11,10 @@ The repository is organized as follows:
   - Arrays
   - Trees
   - Recursion
+  - Linked List
   - Sorting and Searching
+  - Map
+  - Set
   - Dynamic Programming
   - Graphs
   - Miscellaneous Algorithms
