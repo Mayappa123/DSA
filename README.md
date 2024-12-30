@@ -9,9 +9,13 @@ The repository is organized as follows:
 - Problems cover a variety of topics, including:
   - Linked Lists
   - Arrays
+  - Strings
   - Trees
   - Recursion
+  - Linked List
   - Sorting and Searching
+  - Map
+  - Set
   - Dynamic Programming
   - Graphs
   - Miscellaneous Algorithms
