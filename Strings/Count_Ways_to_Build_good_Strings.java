@@ -1,7 +1,7 @@
 public class Count_Ways_to_Build_good_Strings {
     private int mod = (int) 1e9 + 7;
 
-    public int countGoodStrings(int low, int high, int zero, int one) {
+    public static int countGoodStrings(int low, int high, int zero, int one) {
         if (zero > one)
             return countGoodStrings(low, high, one, zero);
 
@@ -22,5 +22,7 @@ public class Count_Ways_to_Build_good_Strings {
 
     public static void main(String[] args) {
         int low = 3, high = 3, zero = 1, one = 1;
+
+        System.out.println(countGoodStrings(low, high, zero, one));
     }
 }
