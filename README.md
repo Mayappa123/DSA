@@ -9,6 +9,8 @@ The repository is organized as follows:
 - Problems cover a variety of topics, including:
   - Linked Lists
   - Arrays
+  - Binary Tree
+  - Binary Search Tree
   - Strings
   - Trees
   - Recursion
