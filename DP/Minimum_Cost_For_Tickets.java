@@ -13,7 +13,7 @@
 // Return the minimum number of dollars you need to travel every day in the given list of days.
 
 public class Minimum_Cost_For_Tickets {
-    public int mincostTickets(int[] days, int[] costs) {
+    public static int mincostTickets(int[] days, int[] costs) {
         int maxDay = days[days.length - 1];
         boolean[] travelDay = new boolean[maxDay + 1];
 
