@@ -40,8 +40,7 @@ public class Minimum_Cost_For_Tickets {
     public static void main(String[] args) {
         int[] days = { 1, 4, 6, 7, 8, 20 }, costs = { 2, 7, 15 };
 
-        Example 1:
-
+        // Example 1:
         // Input: days = [1,4,6,7,8,20], costs = [2,7,15]
         // Output: 11
         // Explanation: For example, here is one way to buy passes that lets you travel your travel plan:
