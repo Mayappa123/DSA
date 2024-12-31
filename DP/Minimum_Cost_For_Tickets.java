@@ -39,13 +39,16 @@ public class Minimum_Cost_For_Tickets {
 
     public static void main(String[] args) {
         int[] days = { 1, 4, 6, 7, 8, 20 }, costs = { 2, 7, 15 };
+        System.out.println(mincostTickets(days, costs)); // Output: 11
 
         // Example 1:
         // Input: days = [1,4,6,7,8,20], costs = [2,7,15]
         // Output: 11
-        // Explanation: For example, here is one way to buy passes that lets you travel your travel plan:
+        // Explanation: For example, here is one way to buy passes that lets you travel
+        // your travel plan:
         // On day 1, you bought a 1-day pass for costs[0] = $2, which covered day 1.
-        // On day 3, you bought a 7-day pass for costs[1] = $7, which covered days 3, 4, ..., 9.
+        // On day 3, you bought a 7-day pass for costs[1] = $7, which covered days 3, 4,
+        // ..., 9.
         // On day 20, you bought a 1-day pass for costs[0] = $2, which covered day 20.
         // In total, you spent $11 and covered all the days of your travel.
     }
