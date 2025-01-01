@@ -4,7 +4,7 @@
 // The score after splitting a string is the number of zeros in the left substring plus the number of ones in the right substring.
 
 public class Maximum_Score_After_Splitting_a_String {
-    public int maxScore(String inputStr) {
+    public static int maxScore(String inputStr) {
         int totalOnes = 0;
         int zerosCount = 0;
         int onesCount = 0;
