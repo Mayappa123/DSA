@@ -33,7 +33,7 @@ public class Maximum_Score_After_Splitting_a_String {
     }
 
     public static void main(String[] args) {
-
+String s = "011101";
         // Example 1:
         // Input: s = "011101"
         // Output: 5
