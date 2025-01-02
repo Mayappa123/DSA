@@ -59,15 +59,6 @@ public class Size_List {
 
         System.out.println(list3);
 
-
-
-
-
-
-
-
-
-
     }
 
 }
