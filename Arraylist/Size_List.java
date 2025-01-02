@@ -1,23 +1,17 @@
 package Arraylist;
-
 import java.util.ArrayList;
+
 public class Size_List {
     public static void main(String[] args) {
+
         ArrayList<Integer> list1 = new ArrayList<Integer>();
         ArrayList<Integer> list2 = new ArrayList<Integer>();
 
-        //  ArrayList can be created in 3 ways.
-
+//  ArrayList can be created in 3 ways.
 // a) ArrayList() —> It creates an empty ArrayList with initial capacity of 10.
-
 // b) ArrayList(int initialCapacity) —> It creates an empty ArrayList with supplied initial capacity.
-
 // c) ArrayList(Collection c) —> It creates an ArrayList containing the elements of the supplied collection.
 
-
-     
-
-        
         list1.add(15);
         list1.add(25);
         list1.add(35);
@@ -58,15 +52,6 @@ public class Size_List {
         list3.add("priyanka");
 
         System.out.println(list3);
-
-
-
-
-
-
-
-
-
 
     }
 
