@@ -18,6 +18,7 @@ public class Number_of_ways_to_Split_Array {
     }
 
     public static void main(String[] args) {
-
+        int[] nums = { 10, 4, -8, 7 };
+        System.out.println(waysToSplitArray(nums));
     }
 }
