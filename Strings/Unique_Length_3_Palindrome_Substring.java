@@ -32,6 +32,7 @@ public class Unique_Length_3_Palindrome_Substring {
     }
 
     public static void main(String[] args) {
-
+        String s = "aabca";
+        System.out.println(countPalindromicSubsequence(s));
     }
 }
