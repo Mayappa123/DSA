@@ -34,5 +34,12 @@ public class Unique_Length_3_Palindrome_Substring {
     public static void main(String[] args) {
         String s = "aabca";
         System.out.println(countPalindromicSubsequence(s));
+
+        // Input: s = "aabca"
+        // Output: 3
+        // Explanation: The 3 palindromic subsequences of length 3 are:
+        // - "aba" (subsequence of "aabca")
+        // - "aaa" (subsequence of "aabca")
+        // - "aca" (subsequence of "aabca")
     }
 }
