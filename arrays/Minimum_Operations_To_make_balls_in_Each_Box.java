@@ -42,7 +42,7 @@ public class Minimum_Operations_To_make_balls_in_Each_Box {
 
         // Input: boxes = "110"
         // Output: [1,1,3]
-        
+
         // Explanation: The answer for each box is as follows:
         // 1) First box: you will have to move one ball from the second box to the first
         // box in one operation.
