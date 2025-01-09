@@ -1,4 +1,6 @@
-import java.util.*;
+nm
+
+    import java.util.*;
 public class Hashset {
     public static void main(String[] args) {
         HashSet<Integer> set = new HashSet<Integer>();
@@ -40,8 +42,5 @@ public class Hashset {
 
         // isEmpty()
         System.out.println(set.isEmpty());
-
-
     }
-    
 }
