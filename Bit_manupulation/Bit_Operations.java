@@ -3,8 +3,9 @@ package Bit_manupulation;
 public class Bit_Operations {
 
     //Least Significant Bit --> It is rightmost bit.
-
     //Most Significant Bit --> It is leftmost bit.
+
+
     //If MSB is 1 --> Negative number 
     //If MSB is 0 --> Positive number
 
@@ -18,11 +19,8 @@ public class Bit_Operations {
     // a >> b i.e. shifting the digits of a towards right by b places.
     // Formula --> a >> b = a / 2^b
 
-
-
     public static void main(String[] args) {
         //  AND Operator
-
         // 0 & 0 -->> 1
         // 0 & 1 -->> 0
         // 1 & 0 -->> 0
@@ -31,7 +29,6 @@ public class Bit_Operations {
 
 
         //  OR Operator
-
         // 0 | 0 -->> 0
         // 0 | 1 -->> 1
         // 1 | 0 -->> 1
@@ -40,7 +37,6 @@ public class Bit_Operations {
 
 
         //XOR Operator -- Same bits gives 0.
-
         // 0 ^ 0 -->> 0
         // 0 ^ 1 -->> 1
         // 1 ^ 0 -->> 1
@@ -58,10 +54,6 @@ public class Bit_Operations {
 
         //Binary Right Shift
         System.out.println(5 >> 2);
-
-
-
-        
     }
     
 }
