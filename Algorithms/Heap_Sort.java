@@ -12,7 +12,6 @@ public class Heap_Sort {
 
         if(rigth < size && arr[rigth] > arr[maxIdx]) { 
             maxIdx = rigth;
-
         }
 
         if(maxIdx != i) {
