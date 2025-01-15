@@ -66,6 +66,5 @@ public class BellMan_Ford_Algorithm {
         ArrayList<Edge> graph[] = new ArrayList[v];
         Creategraph(graph);
         bellmanford(graph, 0);
-        
     }
 }
