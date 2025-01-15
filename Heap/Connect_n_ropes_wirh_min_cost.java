@@ -17,7 +17,6 @@ public class Connect_n_ropes_wirh_min_cost {
             int min2 = pq.remove();
             cost += min + min2;
             pq.add(min + min2);
-
         }
 
         System.out.println("Cost of adding n ropes = "+cost );
