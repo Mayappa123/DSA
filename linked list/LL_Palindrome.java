@@ -61,5 +61,6 @@ public class LL_Palindrome {
         boolean isPalindrome = isPalindrome(head);
 
         System.out.println(isPalindrome ? "LL is palindrome." : "LL is not palindrome.");
+        
     }
 }
