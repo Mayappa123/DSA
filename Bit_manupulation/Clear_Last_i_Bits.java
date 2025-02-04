@@ -9,6 +9,7 @@ public class Clear_Last_i_Bits {
 
     public static void main(String[] args) {
         System.out.println(clearLastiBits(15, 2));
+
     }
 }
 
