@@ -4,5 +4,6 @@ public class Command_Line_Argument {
         String abc;
         abc = args[0];
         System.out.println(abc);
+
 }
 }
