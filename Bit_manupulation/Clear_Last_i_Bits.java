@@ -11,3 +11,4 @@ public class Clear_Last_i_Bits {
         System.out.println(clearLastiBits(15, 2));
     }
 }
+
