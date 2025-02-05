@@ -23,3 +23,4 @@ public class Special_Array_I {
     // Explanation: There is only one element. So the answer is true.
 
 }
+
