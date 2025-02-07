@@ -1,7 +1,6 @@
 import java.util.*;
 
 public class BellMan_Ford_Algorithm {
-
     static class Edge {
         int src;
         int dest;
