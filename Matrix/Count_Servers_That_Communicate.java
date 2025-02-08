@@ -5,7 +5,6 @@
 // Return the number of servers that communicate with any other server.
 
 public class Count_Servers_That_Communicate {
-
     public static int countServers(int[][] grid) {
         int[] Rows = new int[grid.length];
         int[] Col = new int[grid[0].length];
