@@ -39,3 +39,4 @@ public class LL_Cycle {
         System.out.println(hasCycle ? "Cycle exists in the linked list." : "No cycle in the linked list.");
     }
 }
+
