@@ -1,7 +1,6 @@
 import java.util.*;
 
 public class Stack_Using_Dq {
-
     static class Stack {
         Deque<Integer> dq = new LinkedList<>();
 
