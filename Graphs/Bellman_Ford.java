@@ -3,8 +3,6 @@
 
 import java.util.*;
 
-import java.util.*;
-
 public class Bellman_Ford {
     static class Edge {
         int src, dest, wt;
