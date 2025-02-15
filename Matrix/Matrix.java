@@ -1,5 +1,4 @@
 public class Matrix {
-
     public static void printMatrix(int[][] matrix) {
         int m = matrix.length;
         int n = matrix[0].length;
