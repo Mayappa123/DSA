@@ -1,5 +1,4 @@
 package Arraylist;
-
 import java.util.ArrayList;
 
 class student {
