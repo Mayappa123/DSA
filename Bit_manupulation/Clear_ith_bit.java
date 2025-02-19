@@ -11,5 +11,4 @@ public class Clear_ith_bit {
         System.out.println(ClearithBit(15, 2));
         
         }
-    
 }
