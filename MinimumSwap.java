@@ -1,4 +1,5 @@
 class MinimumSwap {
+    
     public static int Swap(int num) {
         char[] numbers = Integer.toString(num).toCharArray();
 
