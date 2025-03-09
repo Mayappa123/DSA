@@ -3,7 +3,5 @@ public class Hashmap_Implementation {
         
         // HashMap in java always implements by Array of LinkedList....
 
-        
-
     }
 }
