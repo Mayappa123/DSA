@@ -5,5 +5,4 @@ public class ASCII_Value {
         int ascii = (int) ch;
         System.out.println(ascii);
     }
-
 }
